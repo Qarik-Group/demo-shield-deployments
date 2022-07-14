@@ -1,0 +1,16 @@
+---
+kit:
+  name:    shield
+  version: 1.11.0
+  features: []
+
+genesis:
+  env:            uswest2demo
+  min_version:    2.7.6
+
+params:
+  shield_static_ip: 10.4.1.9
+  shield_network: default
+  shield_vm_type: default
+  shield_disk_pool: default
+
