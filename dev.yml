@@ -11,6 +11,7 @@ genesis:
 
 params:
   shield_static_ip: 10.4.16.9
-  shield_network: dev
+  shield_network: default
   shield_vm_type: default
   shield_disk_pool: default
+
