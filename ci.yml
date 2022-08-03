@@ -16,13 +16,11 @@ pipeline:
 
   boshes:
     dev:
-      alias:    dev
       url:      https://10.4.16.4:25555
       ca_cert:  (( vault "secret/dev/bosh/ssl/ca:certificate" ))
       username: admin
       password: (( vault "secret/dev/bosh/users/admin:password" ))
-    test:
-      alias:    uswest2demo
+    uswest2demo:
       url:      https://10.4.1.4:25555
       ca_cert:  (( vault "secret/uswest2demo/bosh/ssl/ca:certificate" ))
       username: admin
