@@ -14,4 +14,3 @@ params:
   shield_network: default
   shield_vm_type: default
   shield_disk_pool: default
-
