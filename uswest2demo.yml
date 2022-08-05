@@ -9,7 +9,7 @@ genesis:
   min_version:    2.7.6
 
 params:
-  shield_static_ip: 10.4.16.9
+  shield_static_ip: 10.4.16.16
   shield_network: default
   shield_vm_type: default
   shield_disk_pool: default
